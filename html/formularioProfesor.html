@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/profesor.js"></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div>
+            <h2>&#8226; Profesor &#8226; </h2>
+
+            <div clas="formulario">
+                <form id="form_profesor">
+
+                    <p id="datosin"></p>
+                    <p type=" &#8226; C&#233;dula"><input type="text" id="cedula" name="cedula"></p>
+                    <p type="&#8226; Nombre"><input type="text" id="nombre" name="nombre"></p>
+                    <p type="&#8226; Apellido"> <input type="text" id="apellido" name="apellido"></p>
+
+                    <div class="btn">
+                        <button id="btn01" type="button" onclick="guardarDatos()">Guardar</button>
+                    </div>
+
+                    <h3>&#8226; JSON</h3>
+
+                    <textarea id="jsontexto"></textarea>
+
+                    <div class="btnJson">
+                        <button id="btn02" type="button" onclick="cargarJSON()">JSON</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
